@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>26 January Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>26 JANUARY GAME</h1>
+    <input type="text" id="input1" placeholder="Enter Player Name 1">
+    <input type="text" id="input2" placeholder="Enter Player Name 2">
+    <input type="text" id="input3" placeholder="Enter Player Name 3">
+    <button id="Enter">Enter</button>
+    <button id="P1">Player Name 1</button>
+    <button id="P2">Player Name 2</button>
+    <button id="P3">Player Name 3</button>
+
+    <div class="Select Option">
+        <br>
+        <br>
+        <h2>Select Combination</h2>
+
+        <div id="SO_1">(1) Start-><span class="SOP_1">Player Name 1</span>
+                       End -><span class="SOP_2">Player Name 2</span>
+        </div>
+
+        <div id="SO_2">(2) Start-><span class="SOP_1">Player Name 1</span>
+                       End -><span class="SOP_3">Player Name 3</span>
+        </div>
+
+        <div id="SO_3">(3) Start-><span class="SOP_2">Player Name 2</span>
+                       End -><span class="SOP_1">Player Name 1</span>
+        </div>
+
+        <div id="SO_4">(4) Start-><span class="SOP_2">Player Name 2</span>
+                       End -><span class="SOP_3">Player Name 3</span>
+        </div>
+
+        <div id="SO_5">(5) Start-><span class="SOP_3">Player Name 3</span>
+                       End -><span class="SOP_1">Player Name 1</span>
+        </div>
+
+        <div id="SO_6">(6) Start-><span class="SOP_3">Player Name 3</span>
+                       End -><span class="SOP_2">Player Name 2</span>
+        </div>
+
+        <br>
+        
+        <select name="dropdown name" id ="optionSelect">
+            <option value="0" selected>0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+
+        <br>
+        <br>
+
+        <p id ="default">option 1 is default</p>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <h3>Selecting the Number of Fingurs</h3>
+        <div>
+
+            <div>
+                FOR <span id ="fg_1">Player Name 1</span>
+                <input type="number" id="pfn_1" placeholder="0">
+            </div>
+
+            <div>
+                FOR <span id ="fg_2">Player Name 2</span>
+                <input type="number" id="pfn_2" placeholder="0">
+            </div>
+
+            <div>
+                FOR <span id ="fg_3">Player Name 3</span>
+                <input type="number" id="pfn_3" placeholder="0">
+            </div>
+
+        </div>
+        
+    </div>
+
+    <br>
+    <br>
+
+
+    <div>
+        <h4>Looser</h4>
+        <p id="looser"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

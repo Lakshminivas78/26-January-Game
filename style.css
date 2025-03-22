@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+#input1{
+    border-radius: 1rem;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 350px;
+}
+
+#input2{
+    border-radius: 1rem;
+    padding: 10px; 
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 350px;
+}
+
+#input3{
+    border-radius: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+   
+}
+
+#Enter{
+    border-radius: 1rem;
+    padding: 10px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#P1{
+    border-radius: 1rem;
+    padding: 10px;
+    margin-right: 10px;
+    width: 185px;
+    
+}
+
+#P2{
+    border-radius: 1rem;
+    padding: 10px;
+    margin-right: 10px;
+    width: 185px;
+}
+
+#P3{
+    border-radius: 1rem;
+    padding: 10px;
+    margin-right: 10px;
+    width: 185px;  
+}
